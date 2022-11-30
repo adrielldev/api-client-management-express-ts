@@ -1,6 +1,4 @@
-
-
-export interface IClient{
+export interface IContato{
     name:string
     emails:string[] 
     telefones:string[]
@@ -8,7 +6,7 @@ export interface IClient{
 
 }
 
-export interface IClientUpdated{
+export interface IContatoUpdated{
     name:string
     emails:string[] 
     telefones:string[]

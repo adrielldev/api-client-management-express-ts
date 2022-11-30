@@ -1,9 +1,8 @@
-
-
-
 import { DataSource } from "typeorm"
 
+
 require('dotenv').config()
+
 
 export const AppDataSource = new DataSource({
 
@@ -35,4 +34,4 @@ AppDataSource.initialize()
     .catch((err) => {
         console.error("Error during Data Source initialization", err)
     })
-        
+      
