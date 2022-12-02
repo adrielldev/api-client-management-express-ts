@@ -1,2 +1,1 @@
-# kenzie-avaliacao-s6-m3
-Crud de clientes e contatos e Frontend com ReactJS
+Uma api com um crud de Clientes e Contatos para gerenciamento.
